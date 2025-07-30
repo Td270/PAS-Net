@@ -17,6 +17,9 @@ Please ensure that your dataset directory contains two files, train.txt and test
 where <label> is the numeric class identifier and <path> is the filesystem path to the corresponding image.
 You can download our code and run the following commands:
 For training
+
     python main.py
+
 For testing
+
     python predict.py
