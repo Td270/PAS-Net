@@ -11,9 +11,11 @@ Please ensure that the dataset is stored according to the directory structure sh
 │   └── test
 ```
 Please ensure that your dataset directory contains two files, train.txt and test.txt, and that each line in these files follows the format:
-```text <label>;<path>```
+```text 
+<label>;<path>
+```
 where <label> is the numeric class identifier and <path> is the filesystem path to the corresponding image.
-
+You can download our code and run the following commands:
 For training
     python main.py
 For testing
