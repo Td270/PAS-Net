@@ -11,7 +11,7 @@ Please ensure that the dataset is stored according to the directory structure sh
 │   └── test
 ```
 Please ensure that your dataset directory contains two files, train.txt and test.txt, and that each line in these files follows the format:
-<label>;<path>
+```text <label>;<path>```
 where <label> is the numeric class identifier and <path> is the filesystem path to the corresponding image.
 
 For training
