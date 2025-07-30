@@ -3,13 +3,13 @@ The incidence of multi-drug resistant bacterial species is rapidly increasing. T
 <img width="11625" height="7063" alt="FIG2" src="https://github.com/user-attachments/assets/3032ed9c-3268-49c5-a748-c838ba994785" />
 # Getting Started
 Please ensure that the dataset is stored according to the directory structure shown below.
-
+```text
 ├── data
 │   ├── train
 │   │   ├── MDR
 │   │   └── sensitive
 │   └── test
-
+```
 Please ensure that your dataset directory contains two files, train.txt and test.txt, and that each line in these files follows the format:
 <label>;<path>
 where <label> is the numeric class identifier and <path> is the filesystem path to the corresponding image.
