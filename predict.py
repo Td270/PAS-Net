@@ -117,7 +117,7 @@ def main(args):
     print(f"Creating model: {args.model}")
     results = []
     TP_sum, TN_sum, FP_sum, FN_sum = 0, 0, 0, 0
-    for i in range(1, 4):
+    for i in range(1, 11):
         weight_path = f"/xxx/HWMSA_conformer_small_patch16-320-0.0001-({i}).pth"
         print(f"Evaluating: {weight_path}")
         metrics = evaluate_one_weight(weight_path, args, test_loader, device)
